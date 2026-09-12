@@ -14,7 +14,7 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 install -y tmux curl
-curl -fsSL https://install.danklinux.com | sh -s -- -c niri -t ghostty -y --all-features
+sudo -v && curl -fsSL https://install.danklinux.com | sh -s -- -c niri -t ghostty -y --all-features
 
 # Use a COPR Example:
 #
